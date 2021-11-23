@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --dark-blue: hsl(249, 10%, 26%);
+    --grayish-blue: hsl(246, 25%, 77%);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--red);
+}
+.header__text-container{
+    width: 280px;
+    height: auto;
+    margin: 40px auto;
+}
+.header__title{
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.header__paragraph{
+    margin-top: 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+}
+.register__container{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+}
+.button__try-container{
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px hsl(0, 54%, 58%);
+}
+.button__try{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--blue);
+    justify-self: center;
+    line-height: 20px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+.button__try span{
+    font-weight: 500;
+}
+.register__container-items{
+    width: 320px;
+    height: auto;
+    margin: 24px auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px hsl(0, 54%, 58%);
+    background-color: white;
+    padding: 5px;
+}
+.information__input{
+    width: 260px;
+    height: 40px;
+    margin:20px auto;
+    display: flex;
+    justify-self: center;
+    padding: 12px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(124, 123, 123);
+}
+.information__button-container{
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+}
+.information__button{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: var(--green);
+    box-shadow: 0px 4px hsl(154, 49%, 44%);
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.information__terms{
+    width: 220px;
+    margin: 12px auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--grayish-blue);
+}
+.information__terms span{
+    font-weight: 700;
+    color: var(--red);
+}
